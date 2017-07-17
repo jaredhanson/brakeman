@@ -15,6 +15,10 @@
     }
   ],
   "main": "./lib",
+  "dependencies": {
+    "oauth2orize": "^1.8.0",
+    "utils-merge": "^1.0.0"
+  },
   "devDependencies": {
     "make-node": "^0.3.0",
     "mocha": "^2.0.0",
@@ -22,8 +26,5 @@
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
-  },
-  "dependencies": {
-    "utils-merge": "^1.0.0"
   }
 }
