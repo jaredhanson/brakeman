@@ -2,10 +2,20 @@
   "name": "klamm",
   "version": "0.0.0",
   "description": "",
+  "keywords": [
+    "authz"
+  ],
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
     "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/klamm.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/klamm/issues"
   },
   "license": "MIT",
   "licenses": [
@@ -21,8 +31,8 @@
   },
   "devDependencies": {
     "make-node": "^0.3.0",
-    "mocha": "^2.0.0",
-    "chai": "^3.0.0"
+    "mocha": "^4.0.1",
+    "chai": "^4.1.1"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
